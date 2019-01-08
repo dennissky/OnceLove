@@ -1,0 +1,59 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.2",
+	"appid": "wxade372ce7f2da061",
+	"projectname": "%E6%B5%8B%E8%AF%952",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 3,
+			"list": [
+				{
+					"id": -1,
+					"name": "地图",
+					"pathName": "pages/map/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "zhufu",
+					"pathName": "pages/bless/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "poster",
+					"pathName": "pages/poster/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "留言",
+					"pathName": "pages/chat/index"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,209 @@
+/* pages/chat/index.wxss */
+page {
+    background-color: #fde7e3;
+    padding-bottom: 150rpx;
+}
+.chat_list {
+    width: 630rpx;
+    margin: 0 auto;
+    margin-top: 30rpx;
+    padding: 30rpx;
+    min-height: 0;
+    overflow: hidden;
+    background-color: rgba(255,255,255,.9);
+    border-radius: 5px;
+    box-shadow:  0 0 20px rgba(190,77,43,.2);
+}
+.chat_face {
+    width: 100rpx;
+    height: 100rpx;
+    float: left;
+    margin-right: 30rpx;
+    margin-top: 30rpx;
+}
+.chat_face image{
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+}
+.chat_words {
+    width: 500rpx;
+    float: left;
+    font-size: 30rpx;
+    line-height: 50rpx;
+    color: #999;
+}
+.chat_meta {
+    width: 100%;
+    min-height: 0;
+    overflow: hidden;
+    margin-bottom: 10rpx;
+}
+.chat_user {
+    display: inline-block;
+    font-size: 30rpx;
+    font-weight: 600;
+    color: #666;
+}
+.chat_date {
+    display: inline-block;
+    font-size: 24rpx;
+    color: #ccc;
+}
+
+.send_msg {
+    width: 700rpx;
+    padding: 25rpx;  
+    background-color: #fff;
+    min-height: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border-bottom: 1px solid #f1f1f1;
+
+}
+.send_ipt {
+    width: 680rpx;
+    padding: 15rpx;
+    font-size: 32rpx;
+    height: 200rpx;
+    line-height: 60rpx;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin-bottom: 20rpx;
+}
+.send_btn {
+    width: 500rpx;
+    height: 100rpx;
+    font-size: 36rpx;
+    line-height: 100rpx;
+    float: left;
+    background-image: linear-gradient(135deg, #FEB692 0%, #EA5455 100%);
+    box-shadow: 0 10rpx 20rpx -6rpx rgba(238, 103, 97, 0.5);
+}
+
+.befirst {
+    width: 600rpx;
+    height: 450rpx;
+    margin: 0 auto;
+    min-height: 0;
+    overflow: hidden;
+    margin-top: 200rpx;
+}
+.befirst image{
+    width: 600rpx;
+    height: 450rpx;
+}
+.btn_area {
+    min-height: 0;
+    overflow: hidden;
+    display: flex;
+    padding: 20rpx 10rpx;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 730rpx;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+}
+.msg_btn,.sign_btn {
+    width: 350rpx;
+    height: 100rpx;
+    font-size: 36rpx;
+    line-height: 100rpx;
+    border-radius: 10rpx;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(135deg, #FEB692 0%, #EA5455 100%);
+    box-shadow: 0 10rpx 20rpx -6rpx rgba(238, 103, 97, 0.5);
+}
+.cancel_msg {
+    width: 180rpx;
+    height: 100rpx;
+    float: right;
+    line-height: 100rpx;
+    border-radius: 10rpx;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(135deg, #FEB692 0%, #EA5455 100%);
+    box-shadow: 0 10rpx 20rpx -6rpx rgba(238, 103, 97, 0.5);
+}
+
+.form-label { 
+    min-height: 0;
+    overflow: hidden;
+    padding: 10rpx;
+    font-size: 32rpx;
+}
+.form-tit {
+    line-height: 60rpx;
+}
+.form-tit .must {
+    color: red;
+}
+.form-ipt {
+    color: #333;
+}
+.form-ipt .ipt {
+    height: 60rpx;
+    padding: 10rpx 20rpx;
+    line-height: 60rpx;
+    background-color: #f8f8f8;
+    border-radius: 5rpx;
+}
+.form-ipt .textarea {
+    height: 180rpx;
+    padding: 20rpx;
+    line-height: 60rpx;
+    background-color: #f8f8f8;
+    margin-bottom: 20rpx;
+}
+.radio-group {
+    line-height: 80rpx;
+}
+.radio {
+    /* margin-right: 50rpx; */
+    display: block;
+    width: 50%;
+    float: left;
+}
+.form-btn {
+    text-align: center;
+}
+
+.wx-radio-input{
+    display: none;
+}
+.ws-checkbox {
+  display: block;
+  float: left;
+  margin-top: 20rpx;
+  margin-right: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+  background-image: url('https://wx.qiaker.cn/static/uploadfile/2018/1211/20181211223208_884.png');
+  background-size: 100%;
+}
+
+.ws-checkbox[checked] {
+  background-image: url('https://wx.qiaker.cn/static/uploadfile/2018/1211/20181211223147_449.png');
+}
+.msg_top {
+    display: block;
+    width: 500rpx;
+    height: 177rpx;
+    margin: 0 auto;
+    margin-top: -130rpx;
+    margin-bottom: 10rpx;
+}
+.sign_top {
+    display: block;
+    width: 700rpx;
+    height: 79rpx;
+    margin: 0 auto;
+    margin-top: -50rpx;
+    margin-bottom: -20rpx;
+}
