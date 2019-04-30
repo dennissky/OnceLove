@@ -1,5 +1,6 @@
 {
 	"description": "项目配置文件。",
+  "cloudfunctionRoot":"./cloud-functions",
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
@@ -9,8 +10,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.2",
-	"appid": "wxade372ce7f2da061",
-	"projectname": "%E6%B5%8B%E8%AF%952",
+	"appid": "wx8945be40df0f4e88",
+	"projectname": "OnceLove",
 	"condition": {
 		"search": {
 			"current": -1,

@@ -1,9 +1,17 @@
 <view class="container">
-    <view class="swiper">
+    <!-- <view class="swiper">
         <swiper indicator-dots="false" autoplay="false" interval="5000">
             <swiper-item wx:for="{{slideList}}" wx:key="slide" wx:id="id" wx:if="{{item.image}}">
                 <image src="{{item.image}}" class="slide-image" mode="aspectFill" bindtap='previewImage'/>
             </swiper-item>
         </swiper>
+    </view> -->
+    <view class = "swiper">
+        <swiper indicator-dots='false' autoplay='false' interval='5000'>
+          <swiper-item wx:for="{{imgUrls}}">
+            <image src='{{item}}' class='slide-image' mode='aspectFill'></image>
+          </swiper-item>
+        </swiper>
     </view>
+
 </view>

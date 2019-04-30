@@ -16,7 +16,7 @@
 <view class="container">
     <image src='/images/inv.png' class='inv'></image>
     <image src='{{mainInfo.cover}}' class='cover' mode='aspectFill'></image>
-    <view class='datetime' animation="{{animationData}}">
+    <!-- <view class='datetime' animation="{{animationData}}">
         <view class='box'>
             <view class="name css13610f7ae66601">
                 <span class="fl">{{mainInfo.he}}</span>
@@ -32,5 +32,5 @@
             </view>
             <image class="we" src='/images/we.png'></image>
         </view>
-    </view>
+    </view> -->
 </view>

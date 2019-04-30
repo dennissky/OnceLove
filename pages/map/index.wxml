@@ -8,17 +8,16 @@
   <view class="tel">
     <view class="tel_he" wx:if="{{mainInfo.he_tel}}">
       <view class="call" bindtap="callhe">
-        <image src="/images/he.png" width="100%" />
+        <image src="/images/he_2.jpeg" width="100%" />
       </view>
       呼叫新郎
     </view>
     <view class="tel_she" wx:if="{{mainInfo.she_tel}}">
       <view class="call" bindtap="callshe">
-        <image src="/images/she.png" width="100%" />
+        <image src="/images/she_2.jpeg" width="100%" />
       </view>
       呼叫新娘
     </view>
   </view>
-  <view class='copyright' wx:if="{{mainInfo.she_tel}}">Made With ❤ By  {{mainInfo.he}} & {{mainInfo.she}}</view>
-  <view class='copyright'>©2018 WX.QIAKER.CN</view>
+  <view class='copyright' wx:if="{{mainInfo.she_tel}}">Made With ❤ By Dennis</view>
 </view>

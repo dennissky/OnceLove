@@ -5,11 +5,11 @@
     </view>
     <view class="title" wx:if="{{zanNum == 0}}"> 点击下方按钮可送上祝福 </view>
     <view class="friends">
-        <view class="face" wx:for="{{zanLog}}" wx:key="user">
+        <view class="face" wx:for="{{zanLog}}" wx:key="id">
             <view class="avator">
-                <image src="{{item.face}}" />
+                <image src="{{item.avatar}}" />
             </view>
-            <text>{{item.nickname}}</text>
+            <text>{{item.nickName}}</text>
         </view>
     </view>
 
@@ -37,6 +37,6 @@
     <action-sheet-item open-type="share">
         <button open-type="share" class="share-btn">直接传达给好友</button>
     </action-sheet-item>
-    <action-sheet-item bindtap="createPoster">生成海报</action-sheet-item>
+    <!-- <action-sheet-item bindtap="createPoster">生成海报</action-sheet-item> -->
     <action-sheet-cancel>取消</action-sheet-cancel>
 </action-sheet>

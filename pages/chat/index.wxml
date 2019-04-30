@@ -3,14 +3,14 @@
 
     
     <view wx:if="{{chatNum > 0}}">
-        <view class="chat_list" wx:for="{{chatList}}" wx:key="user">
+        <view class="chat_list" wx:for="{{chatList}}" wx:key="id">
             <view class="chat_face">
-                <image src="{{item.face}}" />
+                <image src="{{item.avatar}}" />
             </view>
             <view class="chat_words">
                 <view class="chat_meta">
-                    <text class="chat_user">{{item.nickname}} </text>
-                    <text class="chat_date fr">{{item.time}}</text>
+                    <text class="chat_user">{{item.nickName}} </text>
+                    <text class="chat_date fr">{{item.createTime}}</text>
                 </view>
                 <view>{{item.words}}</view>
             </view>
@@ -23,7 +23,7 @@
     </view>
     <view class='btn_area'>
         <view class='msg_btn' bindtap='leaveMsg'>说点啥吧</view>
-        <view class='sign_btn' bindtap='signIn'>我要出席</view>
+        <!-- <view class='sign_btn' bindtap='signIn'>我要出席</view> -->
     </view>
     <view class="send_msg" wx:if="{{msgSta}}">
         <image src='/images/green-flower.png' class='msg_top' mode="aspectFit"></image>

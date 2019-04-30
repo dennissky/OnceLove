@@ -7,33 +7,35 @@ var appid = app.globalData.appid;
 Page({
     data: {
         userInfo: {},
-		slideList: []
+      imgUrls: ["http://jbrand-community-uat.obs.cn-north-1.myhuaweicloud.com:80/once-love9.jpeg",
+      "http://jbrand-community-uat.obs.cn-north-1.myhuaweicloud.com:80/once-love10.jpeg",
+        "http://jbrand-community-uat.obs.cn-north-1.myhuaweicloud.com:80/once-love11.jpeg", "http://jbrand-community-uat.obs.cn-north-1.myhuaweicloud.com:80/once-love12.jpeg", "http://jbrand-community-uat.obs.cn-north-1.myhuaweicloud.com:80/once-love13.jpeg", "http://jbrand-community-uat.obs.cn-north-1.myhuaweicloud.com:80/once-love14.jpeg","http://jbrand-community-uat.obs.cn-north-1.myhuaweicloud.com:80/once-love15.jpeg"]
     },
     onLoad: function() {
         var that = this
 
-        wx.showLoading({ //期间为了显示效果可以添加一个过度的弹出框提示“加载中”  
-            title: '加载中',
-            icon: 'loading',
-        });
-        wx.request({
-            url: server,
-            method: 'GET',
-            data: {
-                'c': 'info',
-                'appid': appid
-            },
-            header: {
-                'Accept': 'application/json'
-            },
-            success: function(res) {
+        // wx.showLoading({ //期间为了显示效果可以添加一个过度的弹出框提示“加载中”  
+        //     title: '加载中',
+        //     icon: 'loading',
+        // });
+        // wx.request({
+        //     url: server,
+        //     method: 'GET',
+        //     data: {
+        //         'c': 'info',
+        //         'appid': appid
+        //     },
+        //     header: {
+        //         'Accept': 'application/json'
+        //     },
+        //     success: function(res) {
 
-                wx.hideLoading();
-                that.setData({
-                    slideList: res.data.slideList
-                });
-            }
-        })
+        //         wx.hideLoading();
+        //         that.setData({
+        //             slideList: res.data.slideList
+        //         });
+        //     }
+        // })
     },
     onReady: function() {
         // 页面渲染完成
@@ -51,8 +53,8 @@ Page({
         var that = this;
         //console.log(that.data);
         return {
-            title: that.data.mainInfo.share,
-            imageUrl: that.data.mainInfo.thumb,
+          title: '张天&陈美同的婚礼邀请',
+          imageUrl: 'http://jbrand-community-uat.obs.cn-north-1.myhuaweicloud.com:80/oncelove21.jpeg',
             path: 'pages/index/index',
             success: function(res) {
                 wx.showToast({
