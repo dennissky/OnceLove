@@ -29,7 +29,6 @@ App({
     globalData: {
         userInfo: null,
       appid: 'wx8945be40df0f4e88',//此处改成您自己的小程序appid
-      server: 'https://serviceuat.jconnect.faw-vw.com/oncelove',
         music_url: ''
     }
 });
