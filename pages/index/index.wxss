@@ -1,4 +1,4 @@
-/* pages/invitation/index.wxss */
+/* pages/invitation/index.wxss
 
 .container {
     min-height: 100vh;
@@ -130,4 +130,15 @@ to{-webkit-transform:rotate(0deg);}
 from{-webkit-transform:rotate(0deg);}
 to{-webkit-transform:rotate(20deg);}
 }
-.music_stop{width:4em;display:none;}
+.music_stop{width:4em;display:none;} */
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100%;
+}
+.img {
+  width: 300px
+}

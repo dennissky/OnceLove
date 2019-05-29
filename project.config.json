@@ -1,6 +1,6 @@
 {
 	"description": "项目配置文件。",
-  "cloudfunctionRoot":"./cloud-functions",
+	"cloudfunctionRoot": "cloud-functions/",
 	"setting": {
 		"urlCheck": true,
 		"es6": true,
@@ -12,6 +12,8 @@
 	"libVersion": "2.4.2",
 	"appid": "wx8945be40df0f4e88",
 	"projectname": "OnceLove",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,

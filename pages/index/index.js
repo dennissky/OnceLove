@@ -81,11 +81,11 @@ Page({
     //         });
     //     }
     // });
-    wx.playBackgroundAudio({
-      dataUrl: that.data.music_url,
-      title: '',
-      coverImgUrl: ''
-    })
+    // wx.playBackgroundAudio({
+    //   dataUrl: that.data.music_url,
+    //   title: '',
+    //   coverImgUrl: ''
+    // })
   },
 
   /**
